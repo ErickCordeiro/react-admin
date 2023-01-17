@@ -30,8 +30,8 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       onClick={() => setSelected(false)}
       icon={icon}
     >
-        <Typography>{title}</Typography>
-        <Link to={to} />
+      <Typography>{title}</Typography>
+      <Link to={to} />
     </MenuItem>
   );
 };
@@ -81,7 +81,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  SOS Cidade
+                    REACT-ADMIN
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
